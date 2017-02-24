@@ -4,4 +4,4 @@ This section is for collecting notes, documentation (some of which will be forma
 
 ## Contents
 * [Guidelines for making applications accessible](guidelines.md)
-* 
+* [Resources & Reading Materials](resources.md)
