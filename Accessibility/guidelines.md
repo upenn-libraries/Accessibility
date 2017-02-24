@@ -29,3 +29,7 @@ This level is defined as measures, on top of those taken in Level 1, that should
 
 ## Level 3: What may be done
 This level is defined as measures that may be taken to enhance accessibility of an application, but that are not a requirement for the application to be accessible.
+
+### Test, Test, Test!
+- There is no replacement for testing your site. Accessibility Validators will help you knock out low hanging fruit, but the only way to _really_ be sure your site works is to actually try using it. Hide your mouse, turn on JAWS, and try navigating your site. Give extra attention to custom components.
+- Ideally, you should find actual end users and have them test your site out. A developer and an actual user have vastly different perspectives and will behave accordingly.
