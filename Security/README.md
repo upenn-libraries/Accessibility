@@ -6,6 +6,7 @@ This section is for collecting notes, documentation, and ideas about security. F
 * [Incident Response](incident-response.md)
 * [Data Retention](data-retention.md)
 * [Privacy Policies](privacy-policy.md)
+* [HTTPS: How are we doing?](https-status.md)
 
 ## Other Resources
 * ["Minimum Viable Security"](https://speakerdeck.com/jacobian/minimum-viable-security-wharton-web-conference-2015): Slides from [Wharton Web Conference 2015](https://www.sas.upenn.edu/wwc/).
