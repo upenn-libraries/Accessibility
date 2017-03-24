@@ -16,3 +16,6 @@
     * [Piwik](https://piwik.org/) - Alternative to [Google Analytics](https://analytics.google.com/).
     * [7tag](https://7tag.org/) - Alternative to [Google Tag Manager](https://www.google.com/analytics/tag-manager/).
         * If we move away from GA, the Web Unit is highly interested in securing an alternative for GTM, if feasible. A tag manager cuts down on maintenance time and provides the ability to introduce significant analytics changes without changing our code.
+
+## Links
+* [Data Retention Census (WIP)](https://docs.google.com/spreadsheets/d/1_TVLcT3pZREwuQxpFXiXH4C6ObmGRRkufklXzSPFnAw/edit#gid=0) - Library-wide census on data retention practices and policies (implicit and explicit) for library-supported applications.
