@@ -1,5 +1,5 @@
 # Application/Service Contact List
-Contact list for individuals responsible for applications and services at levels appropriate to address security concerns.
+Contact list for individuals responsible for applications and services at levels appropriate to address concerns regarding software or patron needs.
 
 ## Ways to Contact
 
