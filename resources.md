@@ -13,6 +13,7 @@
 - [The A11Y Project](http://a11yproject.com): A community-driven effort to make web accessibility easier.
 - [HTML5 Feature Accessibility, by browser](http://stevefaulkner.github.io/HTML5accessibility/)
 - [MIND Patterns: Accessibility Patterns for the Web](https://ebay.gitbooks.io/mindpatterns/content/)
+- [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31)
 
 ### Techniques for Custom Features
 - [Accessible Floating Labels](http://allthingssmitty.com/2016/09/25/accessible-floating-labels/)
