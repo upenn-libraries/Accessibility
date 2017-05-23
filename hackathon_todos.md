@@ -6,7 +6,7 @@
 * Working with vendors
 * Glossary of terms
 * WAVE
-  * icon
+  * icon key
   * how to use
 * tota11y
   * how to use
