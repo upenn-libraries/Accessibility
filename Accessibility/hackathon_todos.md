@@ -8,7 +8,7 @@
 * WAVE
   * icon key
   * how to use
-* tota11y
-  * how to use
+* ~~tota11y~~
+  * ~~how to use~~
 * Chrome plugin
   * how to use 
