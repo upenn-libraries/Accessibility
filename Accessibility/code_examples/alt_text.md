@@ -1,4 +1,4 @@
-##Alt text best practices
+## Alt text best practices
 
 High quality alt text should adhere to the following guidelines:
 * Provide an accurate, short description of the contents of the image, including only pertinent information about the image to the user.
