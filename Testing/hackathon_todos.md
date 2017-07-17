@@ -4,12 +4,12 @@
 * What do you want to test?
   * Front end
   * Performance and scale
-  * Test coverage 
+  * Test coverage
     * What's appropriate
     * Unit vs. integration
   * QA Testing
   * Customer Acceptance Testing
-  * Deployment Testing
+  * Deployment Testing - Kate
     * Working with other developers
     * "Craigslist" testing (section on Confluence)
 * Tutorials
