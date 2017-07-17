@@ -31,5 +31,5 @@ This section details different types of deployment testing that can be done with
 #### Steps
 1. The tester receives the list of customer acceptance tests to perform within the application and example files as required.  The tester performs these tasks independently.
 2. Tests should include, at minimum, [CRUD operations](glossary.md) for any persistent created in the application, and interaction with front-end interfaces that the public and users in the tester's position would encounter.  Additional tests should be included following [customer-acceptance testing guidelines](customer_acceptance.md).
-3. When bugs are encountered, the tester should record steps taken to create the error, and test this for reproducibility.  Ideally, each bug reported by the testing developer to the application owner should include steps to reliably reproduce the error.
+3. When bugs are encountered, the tester should record steps taken to create the error, and test this for reproducibility.  Ideally, each bug reported by the testing developer to the application owner should include steps to reliably reproduce the error.  See [Testing Literacy - Guidelines](testing-literacy.md) for information on forming good bug reports.
 3. The tester reports bugs back to the application owner, to be addressed by developers.
