@@ -9,7 +9,7 @@
     * Unit vs. integration
   * QA Testing
   * Customer Acceptance Testing
-  * Deployment Testing - Kate
+  * Deployment Testing
     * Working with other developers
     * "Craigslist" testing (section on Confluence)
 * Tutorials
