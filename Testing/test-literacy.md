@@ -50,5 +50,7 @@ engineering to do well.
   test, beyond the specific functionality in question. This will help
   catch regressions.
 
-- Testing is part of the
-  [software development lifecycle](https://en.wikipedia.org/wiki/Systems_development_life_cycle).
+- Software is always growing and changing over multiple iterations of
+  the
+  [software development lifecycle](https://www.tutorialspoint.com/software_engineering/software_development_life_cycle.htm).
+  Testing is a crucial part of that process, not something extraneous to it.
