@@ -75,8 +75,8 @@ Command-line and API.
 Most languages have libraries available for validating xml:
 
 * Ruby gems
-    - Nokgiri - well-formedness, XSD; depends on libxml2
-    - lbxml-ruby - XSD, DTD, RNG; depends on libxml2
+    - Nokogiri - well-formedness, XSD; depends on libxml2
+    - libxml-ruby - XSD, DTD, RNG; depends on libxml2
 
 * Python
     - lxml - XSD, others???; depends on libxml2
