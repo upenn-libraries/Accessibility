@@ -54,9 +54,10 @@ content displayed as expected?
   of range, invalid email address, text values for numbers, and so on
 - Correct display of error pages: 403, 404, 503, etc.
 
-### CSS behavior and coverage
+### [CSS](https://www.w3schools.com/css/css_intro.asp) behavior and coverage
 
-Does CSS display as expected and consistently across pages?
+Does [CSS](https://www.w3schools.com/css/css_intro.asp) display as expected
+and consistently across pages?
 
 ### JavaScript behavior
 
@@ -69,9 +70,10 @@ confirming expected behavior.
 
 ### Responsive page display
 
-Confirm that pages display correctly at all anticipated resolutions.
+Confirm that pages display correctly at all anticipated resolutions. This can
+be tested in a quick and dirty way adjusting the browser window size manually.
 
-### Cross-browser display
+### [Cross-browser](https://techterms.com/definition/crossbrowser) display
 
 Confirm that the application functions correctly across common browsers,
 especially Chrome, Firefox, and Internet Explorer (Do people do this?).
