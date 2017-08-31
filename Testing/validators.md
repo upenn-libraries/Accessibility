@@ -87,3 +87,20 @@ HTML validation is fraught. Very often HTML validators will treat valid HTML
 as invalid. Anyway, if you must, here's an HTML validator:
 
 - <https://validator.w3.org>
+
+## JSON
+
+There are a number of JSON validators on the web, for the command-line, and for
+code.
+
+#### Web JSON validators:
+
+- <https://jsonlint.com>
+- <https://jsonformatter.curiousconcept.com>
+- <http://www.freeformatter.com/json-validator.html>
+- <https://codebeautify.org/jsonvalidator>
+- <https://jsonformatter.org>
+- ... and many more
+
+#### Command-Line JSON validators
+
