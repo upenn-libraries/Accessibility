@@ -1,9 +1,9 @@
 # Front-end testing
 
 Front-end testing is not integration, usability, or accessibility testing, but
-rather focuses on the functional presentation of pagees and elements to the
+rather focuses on the functional presentation of pages and elements to the
 end user. As with any type of testing, there can be considerable overlap
-between font-end testing and other testing types. Integration tests, for
+between front-end testing and other testing types. Integration tests, for
 example, can be written to test many front-end elements.
 
 Front-end testing for web sites and applications should deal with:
@@ -15,7 +15,7 @@ Front-end testing for web sites and applications should deal with:
 
 - CSS behavior and coverage
 
-- Javascript behavior across application pages
+- JavaScript behavior across application pages
 
 - Correct handling of user data
 
@@ -40,7 +40,7 @@ items on a web page:
 Note though that automated testing has its limits. Building tests to check
 field order can be time consuming and require considerable test-maintenance as
 requirements change and mature. And, more importantly, a test of the relative
-order of elments in the DOM will not reveal CSS effects that change the
+order of elements in the DOM will not reveal CSS effects that change the
 display order elements or cause them to not be visible at all.
 
 ### Expected results based on input
@@ -58,13 +58,13 @@ content displayed as expected?
 
 Does CSS display as expected and consistently across pages?
 
-### Javascript behavior
+### JavaScript behavior
 
-Does Javascript behave consistently across all pages. Note that much
-Javascript behavior can be tested using automated tools. These are especially
+Does JavaScript behave consistently across all pages. Note that much
+JavaScript behavior can be tested using automated tools. These are especially
 good for testing complex behaviors as application code changes. Note though
 that some tools that are used to test front-end behavior do not test
-Javascript. As always, autmotated testing is not a substitute for visually
+JavaScript. As always, automated testing is not a substitute for visually
 confirming expected behavior.
 
 ### Responsive page display
