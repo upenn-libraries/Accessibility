@@ -1,4 +1,4 @@
-# Tutorials: Methods for Testing 
+# Tutorials: Methods for Testing
 
 * [Customer-Acceptance Testing](tutorials/customer_acceptance.md)
 
@@ -6,4 +6,4 @@
 
 * [Developer-Acceptance Testing](tutorials/working_with_developers.md#tutorial-developer-acceptance-testing)
 
-* Smoke Test
+* [Smoke Test](tutorials/smoke_test.md)
