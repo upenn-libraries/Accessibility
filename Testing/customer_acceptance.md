@@ -1,2 +1,0 @@
-## Customer Acceptance Testing
-TODO
