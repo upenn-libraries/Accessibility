@@ -3,7 +3,7 @@
 Getting started with accessibility can be daunting. Here are some of the essentials.
 
 ## Learn about accessibility
-* Familiarize yourself with common [accessibility keywords](glossary.md). *(TODO: Fill in this link when the page exists.)* This will make dense reading material easier to digest.
+* Familiarize yourself with common [accessibility keywords](glossary.md). This will make dense reading material easier to digest.
 * Challenge the notion that working on accessibily only serve a "minority of your user base". In reality, making an accessible website means making it accessible to *all people*. This work goes beyond making websites accessible to blind users. There are myriad ways in which your website could be difficult to use; check out these articles for examples:
     * [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31)
     * [The Veil of Ignorance](https://medium.com/@mrmrs_/the-veil-of-ignorance-575f6a53a575)
