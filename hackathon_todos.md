@@ -16,7 +16,4 @@
 * Screen readers
   * Instructions on installation and useage (Can be linked to in the "Getting started" page, if there is sufficient material elsewhere)
   * Recommendations on which software to use, which is free, etc.
-* Advanced front-end topics?
-  * Building custom widgets/components: How to get the look and behavior you want without sacrificing accessibility.
-    * How to find, choose, and implement pre-existing behaviors & structures defined in W3C documentation
-  * Writing accessible Javascript; how and when to manipulate the DOM without torturing your users.
+* ~~Advanced front-end topics~~ - FIRST PASS DONE
