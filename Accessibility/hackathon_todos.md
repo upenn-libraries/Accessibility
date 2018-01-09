@@ -8,7 +8,7 @@
 * Glossary of terms - Started; update on rolling basis
 * ~~WAVE~~ - FIRST PASS DONE
   * ~~icon key~~ - FIRST PASS DONE
-  * how to use
+  * ~how to use~ - FIRST PASS DONE
 * ~~tota11y~~ - FIRST PASS DONE
   * ~~how to use~~ - FIRST PASS DONE
 * Chrome plugin
