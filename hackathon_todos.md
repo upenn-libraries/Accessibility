@@ -14,6 +14,6 @@
 * Chrome plugin
   * how to use
 * Screen readers
-  * Instructions on installation and useage (Can be linked to in the "Getting started" page, if there is sufficient material elsewhere)
-  * Recommendations on which software to use, which is free, etc.
+  * ~~Instructions on installation and usage~~ FIRST PASS DONE
+  * ~~Recommendations on which software to use, which is free, etc.~~ FIRST PASS DONE
 * ~~Advanced front-end topics~~ - FIRST PASS DONE

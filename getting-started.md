@@ -13,7 +13,7 @@ Getting started with accessibility can be daunting. Here are some of the essenti
 ## Get your current projects up to speed
 * Revisit your projects and evaluate how accessible they are.
     * Accessibility validators are extremely useful for doing this initial digging. Check out the tools_and_plugins directory for guides on getting started with accessibility plugins.
-    * [Learn how to use a screen reader](#) *(TODO: Fill in this link when the page exists. A guide on how to get started with a screen reader would be immensely helpful.)* and actually test your sites; validators can only do so much. Even better: find an actual user who uses screen readers to test your site.
+    * [Learn how to use a screen reader](screenreaders.md) and actually test your sites; validators can only do so much. Even better: find an actual user who uses screen readers to test your site.
 * Depending on how old the project is, there might be a long list of things that need improvements. Start by breaking that list into small tasks and sub-groups that can be worked on over time.
     * Don't burn yourself out by doing everything at once! Stretching out your work helps you retain the new techniques you've learned; eventually this work will be second nature to you, and you won't have to go on Accessibility Crusades to "catch up".
 
