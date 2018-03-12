@@ -1,8 +1,0 @@
-## Glossary of Testing Terms
-* **Application owner** - An individual who is responsible for a given application. This includes accountability for application development, service problems and interruptions, maintenance, documentation, and more.  In this documentation, it most often refers to developers and systems administrators.
-* **Change request** - A proposed or necessary alteration to software or a system.  This encompasses new features (adding new functionality), enhancements (extending or improving existing functionality), and bug fixes (fixing issues in software that impede its usability or violates the software's requirements specification).
-* **CRUDL operations** - Standing for **C**reate, **R**ead, **U**pdate, **D**elete, **L**ist refers to the standard set of operations for persistent content created/maintained in software applications.  **List** is only required in applications with large persistent sets of data.
-* **Developer** - An individual with fluency in one or more programming languages, and likely (but not required) additional deployment fluency in technology such as Docker or Ansible.
-* **Finalize** - Take steps to prepare code changes to be included in a production release.
-* **Release** - A formal version of a piece of software, with all change requests finalized, considered to be stable for production, and often made available for use.
-* **Unspoken gap** - Gaps in documentation identified through testing that manifest as testers being temporarily misled by unclear documentation or developing their own workarounds based on gaps in documentation rather than seeking help from the application owner(s).
