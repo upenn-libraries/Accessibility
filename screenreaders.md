@@ -16,8 +16,24 @@ To learn more about the latest screenreader user demographics, check out [WebAIM
 
 ## How to start using VoiceOver
 On your Mac, go to System Preferences > Accessibility > VoiceOver. There, you can enable VoiceOver. (You can also hit Command + F5 to toggle VO on and off.)
-When you first enable VO, it will give you the option to use its tutorial. The tutorial is a great way to walk through the basics.
+When you first enable VoiceOver, it will give you the option to use its tutorial. The tutorial is a great way to walk through the basics.
 
-Penn State has a handy developer-oriented cheatsheet of VO commands: http://accessibility.psu.edu/screenreaders/voiceover/
+### Online guides:
+Penn State has a helpful beginner-level cheatsheet of VoiceOver commands: http://accessibility.psu.edu/screenreaders/voiceover/
 
-WebAIM also has a useful introduction to testing with VO: https://webaim.org/articles/voiceover/
+This site has an extensive list of commands, and links to Apple's color-coded keyboard charts: http://lab.dotjay.com/notes/voiceover-commands/
+
+WebAIM also has a useful introduction to testing with VoiceOver: https://webaim.org/articles/voiceover/
+
+### Super short list of commands:
+*Note: "VO" stands for "Control + Option". This combination used in the majority of VoiceOver commands, so this shorthand notation is common in online documentation & guides.*
+
+| Keyboard Command | Result |
+|------------------|--------|
+| Command + F5 | Turn on/off |
+| VO + A  | Read all |
+| Control  | Pause |
+| Left/Right Arrow Keys | Hop from element to element. |
+| Tab | Skips to major page elements (links, form items, etc). Works regardless of whether or not you have VoiceOver on. |
+| VO + U  | [Rotor menu](http://accessibility.psu.edu/screenreaders/voiceover/#rotorhttp://accessibility.psu.edu/screenreaders/voiceover/#rotor) (useful way to navigate the page outline by heading tags, links, page landmarks, etc). Use left & right arrows to navigate between menus. Up/down/enter to select an item. Escape to exit. |
+| VO + V | VoiceOver settings. Use left & right arrows to navigate between menus. Up/down to change val. Escape to exit. |
