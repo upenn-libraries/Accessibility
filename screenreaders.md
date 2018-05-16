@@ -33,7 +33,8 @@ WebAIM also has a useful introduction to testing with VoiceOver: https://webaim.
 | Command + F5 | Turn on/off |
 | VO + A  | Read all |
 | Control  | Pause |
-| Left/Right Arrow Keys | Hop from element to element. |
 | Tab | Skips to major page elements (links, form items, etc). Works regardless of whether or not you have VoiceOver on. |
-| VO + U  | [Rotor menu](http://accessibility.psu.edu/screenreaders/voiceover/#rotorhttp://accessibility.psu.edu/screenreaders/voiceover/#rotor) (useful way to navigate the page outline by heading tags, links, page landmarks, etc). Use left & right arrows to navigate between menus. Up/down/enter to select an item. Escape to exit. |
+| VO + Left/Right Arrow Keys | Hop from element to element. |
+| VO + U  | [Rotor menu](http://accessibility.psu.edu/screenreaders/voiceover/#rotor) (useful way to navigate the page outline by heading tags, links, page landmarks, etc). Use left & right arrows to navigate between menus. Up/down/enter to select an item. Escape to exit. |
 | VO + V | VoiceOver settings. Use left & right arrows to navigate between menus. Up/down to change val. Escape to exit. |
+| VO + Command + Right Arrow | Voice settings (speed, pitch, style, etc). Use left & right arrows to navigate between menus. Up/down to change val. |
