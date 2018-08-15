@@ -1,7 +1,7 @@
 # [tota11y](http://khan.github.io/tota11y/) - an accessibility visualization toolkit
 
 [tota11y](http://khan.github.io/tota11y/) is a free browser plugin that allows you to quickly visualize how your site performs with assistive technologies. It's essentially a beginner-friendly accessibility validator. It's great for doing quick checks because it's always available in your browser bookmarks.
-You can play with a demo on tota11y's homepage: http://khan.github.io/tota11y/
+You can play with a demo on tota11y's homepage: [http://khan.github.io/tota11y/](http://khan.github.io/tota11y/)
 
 ## Installation
 Getting started is easy; you don't even have to install anything, and it works in any browser. You simply add the plugin to your bookmarks.

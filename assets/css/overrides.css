@@ -1,0 +1,66 @@
+/* Custom CSS can go in here. (For some reason, creating
+ * _style.scss didn't work, so I've made a separate stylesheet.) */
+
+#project_title {
+  font-size: 36px;
+}
+#project_title a,
+#project_title a:hover,
+#project_title a:active,
+#project_title a:visited {
+  color: #fff;
+}
+
+#project_tagline {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#header_wrap {
+	background: linear-gradient(to top, #10003e, #1e0079);
+}
+
+.inner {
+	max-width: 1000px;
+}
+
+/* Main index page: three columns. */
+.column {
+    width: 30%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+@media (max-width: 775px) {
+	.column {
+		display: block;
+		margin: 25px;
+		width: auto;
+	}
+}
+.iconheader {
+    background-position: 1rem 1rem;
+    background-size: 65px 65px;
+    padding: 1.5rem 0 2rem 90px;
+    background-repeat: no-repeat;
+    margin: 0 0 10px 0; 
+}
+.iconheader h1 {
+}
+.iconheader h2 {
+	font-size: 28px;
+	border-bottom: 1px dashed #ccc;
+}
+.column.start h2,
+.iconheader.start {
+    background-image: url(/Accessibility/assets/images/start.png);
+}
+.column.code h2,
+.iconheader.code {
+    background-image: url(/Accessibility/assets/images/code.png);
+}
+.column.test h2,
+.iconheader.test {
+    background-image: url(/Accessibility/assets/images/test.png);
+}

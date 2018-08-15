@@ -1,8 +1,9 @@
 # All About Screen Readers
 
 ## Software recommendations
+
 | Name | Operating System | Price | Details |
-|:--------------:|:----------------:|-------------|-----------|
+|:----:|:----------------:|-------|---------|
 | VoiceOver (VO) | Mac | Free, native to Mac. | Requires no installation and comes with a built-in tutorial. A beginner-friendly, low-barrier screen reader if you have a Mac. |
 | NVDA | Windows | Free, open-source. | Must be downloaded and installed from the [NVDA website](https://www.nvaccess.org/download/).  |
 | JAWS | Windows | Not Free. | You (or your organization) must purchase a license in order to use JAWS, even for testing purposes. JAWS is more popular, but it'll cost ya. |
@@ -19,11 +20,11 @@ On your Mac, go to System Preferences > Accessibility > VoiceOver. There, you ca
 When you first enable VoiceOver, it will give you the option to use its tutorial. The tutorial is a great way to walk through the basics.
 
 ### Online guides:
-Penn State has a helpful beginner-level cheatsheet of VoiceOver commands: http://accessibility.psu.edu/screenreaders/voiceover/
+Penn State has a helpful beginner-level cheatsheet of VoiceOver commands: [http://accessibility.psu.edu/screenreaders/voiceover/](http://accessibility.psu.edu/screenreaders/voiceover/)
 
-This site has an extensive list of commands, and links to Apple's color-coded keyboard charts: http://lab.dotjay.com/notes/voiceover-commands/
+This site has an extensive list of commands, and links to Apple's color-coded keyboard charts: [http://lab.dotjay.com/notes/voiceover-commands/](http://lab.dotjay.com/notes/voiceover-commands/)
 
-WebAIM also has a useful introduction to testing with VoiceOver: https://webaim.org/articles/voiceover/
+WebAIM also has a useful introduction to testing with VoiceOver: [https://webaim.org/articles/voiceover/](https://webaim.org/articles/voiceover/)
 
 ### Super short list of commands:
 *Note: "VO" stands for "Control + Option". This combination used in the majority of VoiceOver commands, so this shorthand notation is common in online documentation & guides.*

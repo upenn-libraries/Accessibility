@@ -1,3 +1,4 @@
+# WAVE Icon Key
 
 | WAVE Icon | What It Means | What To Do | Additional Resources |
 | --- | --- | --- | --- |

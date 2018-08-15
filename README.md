@@ -1,8 +1,4 @@
-# Best Practices: Web Accessibility
+# Web Accessibility Best Practices
 
-This section is for collecting notes, documentation (some of which will be formalized into guidelines and recommendations), and ideas about web accessibility. Feel free to contribute!
-
-## Contents
-* [Where do I start?](getting-started.md)
-* [Guidelines for making applications accessible](guidelines.md)
-* [Resources & Reading Materials](resources.md)
+Read more about contributing here:
+https://upenn-libraries.github.io/Accessibility/contribute/
