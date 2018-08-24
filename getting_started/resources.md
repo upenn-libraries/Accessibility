@@ -3,7 +3,6 @@
 ## Useful Tools
 - [tota11y](http://khan.github.io/tota11y/): An accessibility visualization toolkit. Easy to install: can be used as a bookmarklet.
 - [Free web accessibility tools round-up](https://medium.com/bread-crumbs/free-web-accessibility-tools-round-up-b83a33797789)
-- [Modaal](http://www.humaan.com/modaal/): Plugin for highly accessible modals (dialog windows).
 - [Random](http://randoma11y.com/) Accessible Color Palettes
 
 ## Further Reading
@@ -16,8 +15,10 @@
 - [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31)
 
 ### Techniques for Custom Features
+- [Inclusive Components](https://inclusive-components.design/): A blog/pattern library of accessible UI components
 - [Accessible Floating Labels](http://allthingssmitty.com/2016/09/25/accessible-floating-labels/)
 - [Building a fully-accessible tooltip](https://sarasoueidan.com/blog/accessible-tooltips/)
+- [Modaal](http://www.humaan.com/modaal/): Plugin for highly accessible modals (dialog windows).
 
 ### User Testing
 - [Research with blind users on mobile devices](https://accessibility.blog.gov.uk/2016/06/09/research-with-blind-users-on-mobile-devices/)
