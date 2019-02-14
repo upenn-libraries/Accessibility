@@ -11,8 +11,7 @@
   * ~how to use~ - FIRST PASS DONE
 * ~~tota11y~~ - FIRST PASS DONE
   * ~~how to use~~ - FIRST PASS DONE
-* Chrome plugin
-  * how to use
+* ~~Chrome plugin~~ - Deprecated, will not do
 * Screen readers
   * ~~Instructions on installation and usage~~ FIRST PASS DONE
   * ~~Recommendations on which software to use, which is free, etc.~~ FIRST PASS DONE
