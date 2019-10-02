@@ -16,4 +16,5 @@
 * [ARIA]({{site.baseurl}}/code/code_examples/aria)
 
 ### More
+* [Color Contrast]({{site.baseurl}}/code/color_contrast)
 * [Advanced Front-End Topics]({{site.baseurl}}/code/advanced_frontend)
