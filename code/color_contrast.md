@@ -11,3 +11,6 @@ These tools check color contrast ratios based on specified colors and font sizes
 ## Downloadable color checkers
 - [Color Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/)
   - CCA has a built-in eyedropper tool that allows you to check color ratios from anything on your screen (be it a website, PDF, application, ...).
+
+## Style guide examples
+- UMN Libraries lists examples of good and bad contrasts using combinations of their brand colors [in their online style guide](https://umnlibraries.github.io/design-system/design/color.html).
