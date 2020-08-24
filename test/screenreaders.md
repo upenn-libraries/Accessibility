@@ -39,3 +39,6 @@ WebAIM also has a useful introduction to testing with VoiceOver: [https://webaim
 | VO + U  | [Rotor menu](http://accessibility.psu.edu/screenreaders/voiceover/#rotor) (useful way to navigate the page outline by heading tags, links, page landmarks, etc). Use left & right arrows to navigate between menus. Up/down/enter to select an item. Escape to exit. |
 | VO + V | VoiceOver settings. Use left & right arrows to navigate between menus. Up/down to change val. Escape to exit. |
 | VO + Command + Right Arrow | Voice settings (speed, pitch, style, etc). Use left & right arrows to navigate between menus. Up/down to change val. |
+
+## Tabbing - troubleshooting
+If you're on a Mac, and tabbing through links isn't working like you expect (it may be skipping most links or not tabbing through pages at all), there might be a few extra settings you need to look at. There is a general setting in Keyboard System Preferences that should be enabled, and some browsers also have specific settings that should be turned on. Take a look at this guide: http://www.weba11y.com/blog/2014/07/07/keyboard-navigation-in-mac-browsers/
