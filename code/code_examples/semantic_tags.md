@@ -7,8 +7,9 @@ Semantic tags often come with a default look.
 ## 1. Give screenreaders a quick outline of your page with H-tags
 ### H-tags are not a font size
 - A sighted user understands the  structural hierarchy of a page at a glance. A big title sits at the top, and a hierarchy of subtitles is sprinkled through the content. Tables of contents and side issues are often fenced off in columns and boxes.
-- A person using a screen reader expects to get the same quick outline by jumping through the H-tags. So it's important to maintain the hierarchy. 
-     ** H1** should be the tag for the page title.  
+- A person using a screen reader expects to get the same quick outline by jumping through the H-tags. So it's important to maintain the hierarchy.  
+ 
+      ** H1** should be the tag for the page title.  
       **H2** should be used for boxes or columns (if you have them). If you're using a content management system like LibGuides, these headings are already provided.  
       **H3** will usually be the top tag for your own content structure.  
 
