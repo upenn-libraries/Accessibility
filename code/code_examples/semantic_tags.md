@@ -12,7 +12,13 @@ A person using a screen reader expects to get the same quick outline by jumping 
    H1 should be the tag for the page title.  
    H2 should be used for boxes or columns (if you have them). If you're using a content management system like LibGuides, these headings are already provided.  
    H3 will usually be the top tag for your own content structure.  
-   
+4. And another item.
+
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+   To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+   Note that this line is separate, but within the same paragraph.⋅⋅   
+
 If you want your headings to be extra big or colorful, it's easy. Use CSS:  
 ```html
 <h3 style="font-size: 33px; color: red">About Our Locations</h3>
