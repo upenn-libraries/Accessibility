@@ -15,5 +15,5 @@ Semantic tags often come with a default look.
 
 - If you want your headings to be extra big or colorful, it's easy. Use CSS:  
    ```html
-<h3 style="font-size: 33px; color: red">About Our Locations</h3>
+       <h3 style="font-size: 33px; color: red">About Our Locations</h3>
    ```
