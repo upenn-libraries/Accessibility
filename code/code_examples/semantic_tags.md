@@ -16,5 +16,7 @@ Semantic tags often come with a default look.
    ```html
        <h3 style="font-size: 3.5rem; color: red">About Our Locations</h3>
    ```
+- Use H-tags in addition to strong tags.
+
 ## 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
 Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
