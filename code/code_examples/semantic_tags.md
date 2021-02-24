@@ -13,9 +13,9 @@ Semantic tags often come with a default look.
       **H2** should be used for boxes or columns (if you have them). If you're using a content management system like LibGuides, these headings are already provided.  
       **H3** will usually be the top tag for your own content structure.  
 
-- If you want your headings to be extra big or colorful, use CSS:  
+- If you want your headings to be extra big or colorful, use CSS (note: 1rem = 10px):  
    ```html
-       <h3 style="font-size: 33px; color: red">About Our Locations</h3>
+       <h3 style="font-size: 3.5rem; color: red">About Our Locations</h3>
    ```
 ## 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
 Actions and connections are the basis for the internet. Screen readers will give their users an overview - if you let them.
