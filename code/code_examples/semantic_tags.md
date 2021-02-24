@@ -18,4 +18,4 @@ Semantic tags often come with a default look.
        <h3 style="font-size: 33px; color: red">About Our Locations</h3>
    ```
 ## 2. Give screenreaders provide a quick overview of actions and connections with a-tags, button tags, and form structure.
-### Actions and connections are the basis for the internet. Screen readers are set up to give their users an overview of what's going on.
+### Actions and connections are the basis for the internet. Screen readers will give their users an overview - if you let them.
