@@ -42,10 +42,3 @@ Goes 1, 3, 4; skips level 2:
   <h4>Mailing Address</h4>
   <h4>Hours of Operation</h4>
 ```
-
-Uses something other than h1 or h2 for the title heading of the page:
-
-```html
-<h4>Library Access Policies</h4>
-<p>Penn faculty, staff, and students need to show or swipe their PennCard...
-```
