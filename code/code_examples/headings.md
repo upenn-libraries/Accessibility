@@ -2,8 +2,7 @@
 
 While it is no longer considered inaccessible to have more than one h1 tag on the page, **the `h1` tag should generally be used once per page,** representing the title or heading of the main content of the page.  Using more than one instance per page will trigger warnings if not failures in most accessibility validators.
 
-Use h1 for the title heading of the page. 
-The page title in the h1 tag should duplicate the title in the `html head` of the page.
+The page title in the **h1 tag** should duplicate the title in the **`html head`** of the page.
 ```html
 <html>
   <head>
