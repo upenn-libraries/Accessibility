@@ -18,7 +18,7 @@ The page title in the **h1 tag** should duplicate the title in the **`html head`
 
 Headings should occur in numerical order without skipping levels.  See examples below.
 
-Accessible example:
+**Accessible example:**
 
 ```html
 <h2>About Our Locations</h2>
@@ -30,7 +30,7 @@ Accessible example:
     <h4>Hours of Operation</h4>
 ```
 
-Inaccessible examples:
+**Inaccessible examples:**
 
 Goes 1, 3, 4; skips level 2:
 ```html
