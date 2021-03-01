@@ -16,7 +16,7 @@ Semantic tags often come with a default look.
    ```html
        <h3 style="font-size: 3.5rem; color: red;">About Our Locations</h3>
    ```
-- Use H-tags in addition to strong tags.
+- **_Advanced best practive:_** Use H-tags in addition to strong tags.
    Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
    Sighted users benefit from strong tags, but folks who use screen readers need something more. 
    Use an H-tag. Then preserve your look by providing css to keep it inline. Here's an example of a list with a header for each item:
