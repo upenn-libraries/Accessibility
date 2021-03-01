@@ -16,7 +16,7 @@ The page title in the **h1 tag** should duplicate the title in the **`html head`
 ```
 
 
-Headings should also occur in numerical order without skipping levels.  See examples below.
+Headings should occur in numerical order without skipping levels.  See examples below.
 
 Accessible example:
 
