@@ -14,9 +14,18 @@ Semantic tags often come with a default look.
 
 - If you want your headings to be extra big or colorful, use CSS (note: 1rem = 10px):  
    ```html
-       <h3 style="font-size: 3.5rem; color: red">About Our Locations</h3>
+       <h3 style="font-size: 3.5rem; color: red;">About Our Locations</h3>
    ```
 - Use H-tags in addition to strong tags.
+   Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
+   Sighted users benefit from strong tags, but folks who use screen readers need something more. 
+   Use an H-tag. Then preserve your look by providing css to keep it inline. Here's an example of a list with a header for each item:
+   ```html
+       <ul>
+         <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
+         <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
+       <ul>
+   ``` 
 
 ## 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
 Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
