@@ -4,7 +4,7 @@ Semantic tags often come with a default look.
 - If you don't like the default look, use CSS to get rid of it. Don't ditch or modify the tag!
 - If you do want the look but the tag doesn't describe your content, use CSS to duplicate the look. Ditch the tag! 
 
-## 1. Give screenreaders a quick outline of your page with H-tags
+### 1. Give screenreaders a quick outline of your page with H-tags
 **H-tags are not a font size**
 - A sighted user understands the  structural hierarchy of a page at a glance. A big title sits at the top, and a hierarchy of subtitles is sprinkled through the content. Tables of contents and side issues are often fenced off in columns and boxes.
 - A person using a screen reader expects to get the same quick outline by jumping through the H-tags. So it's important to maintain the hierarchy.  
