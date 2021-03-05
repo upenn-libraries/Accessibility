@@ -43,5 +43,6 @@ Actions and connections are the basis for the internet. Screen readers can give 
    - term: definition
    - field: value(s)
    - FAQ question:answers
+   
    You're not stuck with the default look. <dt> and <dd> can appear on the same line.
    Don't use dl-dt-dd lists for hanging indent formatting. Use css.
