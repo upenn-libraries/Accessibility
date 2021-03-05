@@ -53,4 +53,10 @@ Actions and connections are the basis for the internet. Screen readers can give 
 	      <dd>45031325</dd>  
            </dl>
       ```
+      ```html
+       <dl>
+         <dt><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
+         <dd><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
+       <dl>
+     ``` 
    Don't use dl-dt-dd lists to format hanging indents. Use css.
