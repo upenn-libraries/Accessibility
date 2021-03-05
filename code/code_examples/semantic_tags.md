@@ -47,10 +47,10 @@ Actions and connections are the basis for the internet. Screen readers can give 
    You're not stuck with the default look. Use css to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
            <dl>
-              <dt style="float: left; margin-right: 10px;">Subjects:</dt>
-	      <dd>Aristotle</dd>
-	      <dt style="float: left; margin-right: 10px;">OCLC:</dt>
-	      <dd>45031325</dd>
+              <dt style="float: left; margin-right: 10px;">Subjects:</dt>  
+	      <dd>Aristotle</dd>  
+	      <dt style="float: left; margin-right: 10px;">OCLC:</dt>  
+	      <dd>45031325</dd>  
            </dl>
       ```
    Don't use dl-dt-dd lists to format hanging indents. Use css.
