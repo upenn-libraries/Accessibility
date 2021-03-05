@@ -30,11 +30,11 @@ Semantic tags often come with a default look.
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
 Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
 
-### 3. Semantic tags should indicate inner structure
+### 3. Semantic tags should indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
 1. Use tables to present data. Do not use tables for layout.
 2. Use blockquote tags to enclose quotations. Do not use blockquotes as a shortcut to indent ordinary text
 3. Use html lists for lists. If you don't like the default look of an html list, use css to get rid of the look. Keep the html list structure. 
-   - Screen readers announce the list and tell the user how many items are in it. This is information a sited user gets at a glance.
+   - Screen readers announce the list and tell the user how many items are in it. 
    - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.
 4. Use the dl-dt-dd list structure for 
    - term: definition
