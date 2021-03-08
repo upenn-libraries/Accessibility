@@ -79,9 +79,9 @@ Actions and connections are the basis for the internet. Screen readers can give 
    **If you don't like the default look of an html list, use css to get rid of the look. Don't dump the html list structure. **
    
 6. **Use the dl-dt-dd list structure for** 
-   - **term: definition**
+   - **term: definition(s)**
    - **field: value(s)**
-   - **FAQ question:answers**
+   - **FAQ question: answer(s)**
    
    You're not stuck with the default look. Use css to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
