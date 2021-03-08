@@ -79,10 +79,14 @@ Actions and connections are the basis for the internet. Screen readers can give 
      
    **If you don't like the default look of an html list, use CSS to dump the look. Don't dump the HTML list structure.**  
    The CSS goes in the ```<ul>``` tag.
-   - This ```<ul>``` tag will display an indented list with no dots.   
-   - This ```<ul>``` tag will display a list with no dots and with no indentation. 
-   - This ```<ul>``` tag will display a list with no dots and with no indentation and with vertical space between the list items.
-
+   - List items in this ```<ul>``` tag will be indented and will display with no dots.   
+     ```html
+       <ul style="list-style-image: none; list-style-type: none;">list items inside</ul>
+     ```   
+   - List items in this ```<ul>``` tag will not be indented and will have no dots.   
+     ```html
+       <ul style="list-style-image: none; list-style-type: none; margin-left: 0; padding-left: 8px;">list items inside</ul>
+     ``` 
 
 6. **Use the dl-dt-dd list structure for** 
    - **term: definition(s)**
