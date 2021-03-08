@@ -24,7 +24,7 @@ Semantic tags often come with a default look.
        <ul>
          <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
          <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
-       <ul>
+       </ul>
    ``` 
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
@@ -70,7 +70,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
    **Do not use blockquotes as a shortcut to indent ordinary text.**
    Here's the css for indented text that matches the look of a blockquote:  
    ```html
-       <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.<p>
+       <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.</p>
    ``` 
    
 5. **Use html lists for lists.**  
@@ -90,7 +90,11 @@ Actions and connections are the basis for the internet. Screen readers can give 
          <dd><h3 style="display:inline; margin: 0;">Aristotle</dd>
          <dt style="float: left; margin-right: 10px;"</dt>
          <dd><h3 style="display:inline; margin: 0;">45031325</dd>
-       <dl>
+       </dl>
      ``` 
    **Don't use dl-dt-dd lists to format hanging indents.** 
-   Here's the css for that look:  
+   Here's the css for that look:
+   ```html
+       <p style="text-indent: -40px; margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat.</p>
+   ``` 
+
