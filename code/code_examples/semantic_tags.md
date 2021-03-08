@@ -66,9 +66,9 @@ Actions and connections are the basis for the internet. Screen readers can give 
    ```html
        <table role="presentation">
    ```  
-3. **Use blockquote tags to enclose quotations. **  
+3. **Use blockquote tags to indicate that their content is a quotations.**  
    **Do not use blockquotes as a shortcut to indent ordinary text.**
-   Here's the css for text indented to match the look of a blockquote:  
+   Here's the css for indented text that matches the look of a blockquote:  
    ```html
        <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.<p>
    ``` 
