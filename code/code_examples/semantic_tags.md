@@ -31,8 +31,39 @@ Semantic tags often come with a default look.
 Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
 
 ### 3. Semantic tags should indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
-1. Use tables to present data. 
-   Do not use tables for layout.
+1. **Use tables to present data.**   
+   **Do not use tables for layout.**  
+   [See WebAIM's discussion of coding accessible tables](https://webaim.org/techniques/tables/data) 
+   - It's desirable to provide a caption for a data table. It follows immediately after the table tag: 
+   ```html
+       <table>
+         <caption>Brief description of table content</caption>
+   ``` 
+ 
+   - It's essential to provide table header tags (``<th>```). Without table headers, voice readers cannot indicate which data belongs to which column or row.  
+   - If your table has headers both across the top and down the left side, mark them up. 
+   ```html
+       <table>
+           <tr>  
+             <th>top header</th>  
+             <th>top header</th>  
+             <th>top header</th>  
+	         </tr>  
+	         <tr>  
+             <th>side header</th>  
+             <td>data</th>  
+             <td>data</th>  
+	         </tr>
+           <tr>
+             <th>side header</th>  
+             <td>data</td>  
+             <td>data</td>  
+	         </tr>		
+       </table>
+   ``` 
+   
+   
+   
 3. Use blockquote tags to enclose quotations. 
    Do not use blockquotes as a shortcut to indent ordinary text
 5. Use html lists for lists. 
