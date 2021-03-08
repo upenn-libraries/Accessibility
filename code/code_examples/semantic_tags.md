@@ -78,10 +78,10 @@ Actions and connections are the basis for the internet. Screen readers can give 
    - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.  
    **If you don't like the default look of an html list, use css to get rid of the look. Don't dump the html list structure. **
    
-6. **Use the dl-dt-dd list structure for 
-   - term: definition
-   - field: value(s)
-   - FAQ question:answers**
+6. **Use the dl-dt-dd list structure for** 
+   - **term: definition**
+   - **field: value(s)**
+   - **FAQ question:answers**
    
    You're not stuck with the default look. Use css to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
