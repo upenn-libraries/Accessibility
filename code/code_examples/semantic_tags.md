@@ -74,10 +74,16 @@ Actions and connections are the basis for the internet. Screen readers can give 
    ``` 
    
 5. **Use HTML lists for lists.**  
-   - Screen readers announce the list and tell the user how many items are in it.   
+   - Screen readers announce the list and tell the user how many items it has.   
    - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.  
-   **If you don't like the default look of an html list, use CSS to dump the look. Don't dump the HTML list structure. **
-   
+     
+   **If you don't like the default look of an html list, use CSS to dump the look. Don't dump the HTML list structure.**  
+   The CSS goes in the ```<ul>``` tag.
+   - This ```<ul>``` tag will display an indented list with no dots.   
+   - This ```<ul>``` tag will display a list with no dots and with no indentation. 
+   - This ```<ul>``` tag will display a list with no dots and with no indentation and with vertical space between the list items.
+
+
 6. **Use the dl-dt-dd list structure for** 
    - **term: definition(s)**
    - **field: value(s)**
