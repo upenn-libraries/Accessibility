@@ -19,7 +19,7 @@ Semantic tags often come with a default look.
 - **_Advanced best practive:_** Use H-tags in addition to strong tags.
    Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
    Sighted users benefit from strong tags, but folks who use screen readers need something more. 
-   Use an H-tag. Then preserve your look by providing css to keep it inline. Here's an example of a list with a header for each item:
+   Use an H-tag. Then preserve your look by providing CSS to keep it inline. Here's an example of a list with a header for each item:
    ```html
        <ul>
          <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
@@ -61,29 +61,29 @@ Actions and connections are the basis for the internet. Screen readers can give 
        </table>
    ``` 
    **Do not use tables for layout.**    
-   - Css can provide any layout you desire. If you're at Penn Libraries, the  [Web Unit](mailto:webunit@lists.upenn.edu) will help.  
+   - CSS can provide any layout you desire. If you're at Penn Libraries, the  [Web Unit](mailto:webunit@lists.upenn.edu) will help.  
    - If you're absolutely desperate, give your table tag the role presentation: 
    ```html
        <table role="presentation">
    ```  
 3. **Use blockquote tags to indicate that their content is a quotations.**  
    **Do not use blockquotes as a shortcut to indent ordinary text.**
-   Here's the css for indented text that matches the look of a blockquote:  
+   Here's the CSS for indented text that matches the look of a blockquote:  
    ```html
        <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.</p>
    ``` 
    
-5. **Use html lists for lists.**  
+5. **Use HTML lists for lists.**  
    - Screen readers announce the list and tell the user how many items are in it.   
    - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.  
-   **If you don't like the default look of an html list, use css to get rid of the look. Don't dump the html list structure. **
+   **If you don't like the default look of an html list, use CSS to dump the look. Don't dump the HTML list structure. **
    
 6. **Use the dl-dt-dd list structure for** 
    - **term: definition(s)**
    - **field: value(s)**
    - **FAQ question: answer(s)**
    
-   You're not stuck with the default look. Use css to display ```<dt>``` and ```<dd>``` on the same line:
+   You're not stuck with the default look. Use CSS to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
        <dl>
          <dt style="float: left; margin-right: 10px;">Subjects:</dt>
@@ -93,7 +93,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
        </dl>
      ``` 
    **Don't use dl-dt-dd lists to format hanging indents.** 
-   Here's the css for that look:
+   Here's the CSS for that look:
    ```html
        <p style="text-indent: -40px; margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat.</p>
    ``` 
