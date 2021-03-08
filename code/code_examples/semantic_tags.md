@@ -39,7 +39,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
          <caption>Brief description of table content</caption>
    ``` 
  
-   - It's essential to provide table header tags (```<th>```). Without table headers, voice readers cannot indicate which data belongs to which column or row.  
+   - It's essential to provide table header tags (```<th>```). Without table headers, screen readers can only guess which data belongs to which column or row.  
    - If your table has headers both across the top and down the left side, mark them up. 
    ```html
        <table>
