@@ -62,7 +62,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
    ``` 
    **Do not use tables for layout.**    
    - CSS can provide any layout you desire. If you're at Penn Libraries, the  [Web Unit](mailto:webunit@lists.upenn.edu) will help.  
-   - If you're absolutely desperate, give your table tag the role presentation: 
+   - If you're absolutely desperate to use a table for layout, give your table tag the role presentation: 
    ```html
        <table role="presentation">
    ```  
