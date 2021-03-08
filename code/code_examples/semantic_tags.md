@@ -83,7 +83,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
    - **field: value(s)**
    - **FAQ question: answer(s)**
    
-   You're not stuck with the default look. Use CSS to display ```<dt>``` and ```<dd>``` on the same line:
+   You're not stuck with the default look. You can use CSS to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
        <dl>
          <dt style="float: left; margin-right: 10px;">Subjects:</dt>
