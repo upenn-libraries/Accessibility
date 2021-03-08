@@ -14,7 +14,7 @@ Semantic tags often come with a default look.
 
 - If you want your headings to be extra big or colorful, use CSS (note: 1rem = 10px):  
    ```html
-       <h3 style="font-size: 3.5rem; color: red;">About Our Locations</h3>
+       <h3 style="font-size: 3.5rem; color: red;">My strident header</h3>
    ```
 - **_Advanced best practive:_** Use H-tags in addition to strong tags.
    Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
