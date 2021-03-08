@@ -31,8 +31,7 @@ Semantic tags often come with a default look.
 Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
 
 ### 3. Semantic tags should indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
-1. **Use tables to present data.**   
-   **Do not use tables for layout.**  
+1. **Use tables to present data.**  
    [See WebAIM's discussion of coding accessible tables](https://webaim.org/techniques/tables/data) 
    - It's desirable to provide a caption for a data table. It follows immediately after the table tag: 
    ```html
@@ -40,7 +39,7 @@ Actions and connections are the basis for the internet. Screen readers can give 
          <caption>Brief description of table content</caption>
    ``` 
  
-   - It's essential to provide table header tags (``<th>```). Without table headers, voice readers cannot indicate which data belongs to which column or row.  
+   - It's essential to provide table header tags (```<th>```). Without table headers, voice readers cannot indicate which data belongs to which column or row.  
    - If your table has headers both across the top and down the left side, mark them up. 
    ```html
        <table>
@@ -61,6 +60,12 @@ Actions and connections are the basis for the internet. Screen readers can give 
 	         </tr>		
        </table>
    ``` 
+   **Do not use tables for layout.**    
+   - Css can provide any layout you desire. If you're at Penn Libraries, the  [Web Unit](mailto:webunit@lists.upenn.edu) will help.  
+   - If you're absolutely desperate, give your table tag the role presentation: 
+   ```html
+       <table role="presentation">
+   ```  
    
    
    
