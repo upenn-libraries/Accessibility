@@ -66,15 +66,18 @@ Actions and connections are the basis for the internet. Screen readers can give 
    ```html
        <table role="presentation">
    ```  
+3. **Use blockquote tags to enclose quotations. **  
+   **Do not use blockquotes as a shortcut to indent ordinary text.**
+   Here's the css for text indented to match the look of a blockquote:  
+   ```html
+       <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.<p>
+   ``` 
    
+5. **Use html lists for lists. **  
+   - Screen readers announce the list and tell the user how many items are in it.   
+   - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.  
+   **If you don't like the default look of an html list, use css to get rid of the look. Don't dump the html list structure. **
    
-   
-3. Use blockquote tags to enclose quotations. 
-   Do not use blockquotes as a shortcut to indent ordinary text
-5. Use html lists for lists. 
-   If you don't like the default look of an html list, use css to get rid of the look. Keep the html list structure. 
-   - Screen readers announce the list and tell the user how many items are in it. 
-   - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.
 6. Use the dl-dt-dd list structure for 
    - term: definition
    - field: value(s)
@@ -89,4 +92,5 @@ Actions and connections are the basis for the internet. Screen readers can give 
          <dd><h3 style="display:inline; margin: 0;">45031325</dd>
        <dl>
      ``` 
-   Don't use dl-dt-dd lists to format hanging indents. Use css.
+   **Don't use dl-dt-dd lists to format hanging indents.  ** 
+   Here's the css for that look:  
