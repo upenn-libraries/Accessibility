@@ -18,6 +18,7 @@ Note. The code snippets below measure screen content in rems. 1rem = 10px. Using
    ```html
        <h3 style="font-size: 3.5rem; color: red;">My strident header</h3>
    ```
+
 - **_Advanced best practive:_** Use H-tags in addition to strong tags.
    Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
    Sighted users benefit from strong tags, but folks who use screen readers need something more. 
