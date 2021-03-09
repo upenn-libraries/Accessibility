@@ -28,7 +28,19 @@ Semantic tags often come with a default look.
    ``` 
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
-Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.
+Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.  
+when Tim Berners Lee invented HTML in 1989 - was to connect documents
+Clickable actions: Use buttons to signal clickable actions, such as “download,” “sign up,” or “log out.” You may use links for less popular or less important actions. 
+
+**Use a button tag** for an action: “download,” “sign up,” or “log out.”
+
+**Use an a-tag** to send the user to a new page or to a different target on the same page.
+
+**Do not use a button tag to make an a-tag more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button. 
+   ```html
+       <a href="someurl" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 10px; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 110px;">About me!</a>
+   ```
+```width: 110px``` should change depending on your text.
 
 ### 3. Use semantic tags to indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
 1. **Use tables to present data.**  
