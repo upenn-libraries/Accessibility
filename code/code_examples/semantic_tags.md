@@ -1,4 +1,4 @@
-f## Do use semantic tags to expose the structure of your document.  
+## Do use semantic tags to expose the structure of your document.  
 ## Do not use semantic tags as a shortcut for formatting.
 Semantic tags often come with a default look. 
 - If you don't like the default look, use CSS to get rid of it. Don't ditch or modify the tag!
