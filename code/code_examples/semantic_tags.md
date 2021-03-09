@@ -48,7 +48,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
 
 2. **Accessible forms are not discussed here** because they're a subject by themselves. But Submit (or Search or the main form action) should be a button!
 
-### 3. Use semantic tags to indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
+### 3. Use semantic tags to indicate inner structure. Again it's all about providing shortcuts to information that a sighted user gets at a glance.
 1. **Use tables to present data.**  
    [See WebAIM's discussion of coding accessible tables](https://webaim.org/techniques/tables/data) 
    - It's desirable to provide a caption for a data table. It follows immediately after the table tag: 
