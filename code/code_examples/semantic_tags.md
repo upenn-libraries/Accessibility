@@ -37,7 +37,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
 
    **Use a button tag for an action:** “download,” “sign up,” “log out.”
 
-   **Use an a-tag to link** to a new page or to a different target on the same page.
+   **Use an a-tag for a link:** Links point to a new page or to a different target on the same page.
 
    **Do not use a button tag to make a link more strident for your sighted users.**   
    If you want to yell at sighted users, you can (you probably shouldn't) style your a-tag as a button:  
