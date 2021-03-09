@@ -20,7 +20,7 @@ Semantic tags often come with a default look.
    Screen readers are usually set to ignore strong tags (and em tags) because their users find the default voice changes annoying. 
    Sighted users benefit from strong tags, but folks who use screen readers need something more. 
    Use an H-tag. Then preserve your look by providing CSS to keep it inline. Here's an example of a list with a header for each item:
-   ```html
+   ```html    
        <ul>
          <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
          <li><h3 style="display:inline; margin: 0;"><strong>List item header </strong></h3> and here's some more text</li>
@@ -36,8 +36,8 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
 
    **Use an a-tag to link** to a new page or to a different target on the same page.
 
-   **Do not use a button tag to make a link more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button.  
-        ```html
+   **Do not use a button tag to make a link more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button:    
+        ```html  
              <a href="someurl" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 10px; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 110px;">About me!</a>
          ```    
 	 
