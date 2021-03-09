@@ -1,4 +1,4 @@
-## Do use semantic tags to expose the structure of your document.  
+f## Do use semantic tags to expose the structure of your document.  
 ## Do not use semantic tags as a shortcut for formatting.
 Semantic tags often come with a default look. 
 - If you don't like the default look, use CSS to get rid of it. Don't ditch or modify the tag!
@@ -28,9 +28,8 @@ Semantic tags often come with a default look.
    ``` 
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
-Actions and connections are the basis for the internet. Screen readers can give their users an overview - if you let them.  
-when Tim Berners Lee invented HTML in 1989 - was to connect documents
-Clickable actions: Use buttons to signal clickable actions, such as “download,” “sign up,” or “log out.” You may use links for less popular or less important actions. 
+Tim Berners Lee invented HTML to connect documents. Connections are the bones of the internet.    
+Users often set screen readers to jump through a list of a-tags on a page to get a sense of its internet environment. If your most important a-tags is coded as a button, it will be missing from that overview.  
 
 **Use a button tag** for an action: “download,” “sign up,” or “log out.”
 
