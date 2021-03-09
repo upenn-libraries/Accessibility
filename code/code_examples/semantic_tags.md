@@ -39,12 +39,12 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
    **Use an a-tag to link** to a new page or to a different target on the same page.
 
    **Do not use a button tag to make a link more strident for your sighted users.**   
-   If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button. The snippet below styles an a-tag as a red button with bold white text:
+   If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button:  
    ```html    
        <a href="some-url" style="-webkit-border-radius: .5rem; -moz-border-radius: .5rem; border-radius: .5rem; padding: .5rem 1rem; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 11rem;">About me!</a>
    ``` 
 	 
-   ```width: 11rem``` should change depending on your text.
+    The snippet below styles an a-tag as a red button with bold white text. Change ```width: 11rem``` to fit your text.
 
 2. **Accessible forms are not discussed here** because they're a subject by themselves. But Submit (or Search or the main form action) should be a button!
 
