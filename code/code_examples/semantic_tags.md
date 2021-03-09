@@ -101,7 +101,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
      ```html
        <ul style="list-style-image: none; list-style-type: none;">list items inside</ul>
      ```   
-   - List items in this ```<ul>``` tag will not be indented and will have no dots.   
+   - List items in this ```<ul>``` tag will not be indented and will display no dots.   
      ```html
        <ul style="list-style-image: none; list-style-type: none; margin-left: 0; padding-left: .8rem;">list items inside</ul>
      ``` 
