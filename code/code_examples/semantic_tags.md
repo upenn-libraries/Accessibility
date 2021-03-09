@@ -31,7 +31,7 @@ Note. The code snippets below measure screen content in rems. 1rem = 10px. Using
    ``` 
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
-1. **Buttons and Links**  
+1. **Buttons and A-tags**  
 Tim Berners Lee invented HTML to connect documents. Connections are the bones of the World Wide Web.    
 Users often set screen readers to jump through a list of a-tags on a page. Along with the page title, that scan provides a sense of the page's context within the World Wide Web. If your most important a-tag is coded as a button, it will be missing from that overview.  
 
