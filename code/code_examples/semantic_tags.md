@@ -83,7 +83,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
    ```html
        <table role="presentation">
    ```  
-3. **Use blockquote tags to indicate that their content is a quotations.**  
+3. **Use blockquote tags to indicate that your content is a quotation.**  
    **Do not use blockquote as a shortcut to indent ordinary text.**
    Here's the CSS for indented text that matches the look of a blockquote:  
    ```html
