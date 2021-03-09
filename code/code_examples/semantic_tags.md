@@ -97,9 +97,9 @@ Actions and connections are the basis for the internet. Screen readers can give 
       ```html
        <dl>
          <dt style="float: left; margin-right: 10px;">Subjects:</dt>
-         <dd><h3 style="display:inline; margin: 0;">Aristotle</dd>
-         <dt style="float: left; margin-right: 10px;"</dt>
-         <dd><h3 style="display:inline; margin: 0;">45031325</dd>
+         <dd>Aristotle</dd>
+         <dt style="float: left; margin-right: 10px;">OCLC:</dt>
+         <dd>45031325</dd>
        </dl>
      ``` 
    **Don't use dl-dt-dd lists to format hanging indents.** 
