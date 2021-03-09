@@ -28,18 +28,21 @@ Semantic tags often come with a default look.
    ``` 
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
+1. **Buttons and Links**  
 Tim Berners Lee invented HTML to connect documents. Connections are the bones of the internet.    
-Users often set screen readers to jump through a list of a-tags on a page to get a sense of its internet environment. If your most important a-tags is coded as a button, it will be missing from that overview.  
+Users often set screen readers to jump through a list of a-tags on a page. Along with the page title, that scan provides a sense of the page's context within the internet. If your most important a-tag is coded as a button, it will be missing from that overview.  
 
-**Use a button tag** for an action: “download,” “sign up,” or “log out.”
+**Use a button tag for an action:** “download,” “sign up,” or “log out.”
 
-**Use an a-tag** to send the user to a new page or to a different target on the same page.
+**Use an a-tag to link** to a new page or to a different target on the same page.
 
-**Do not use a button tag to make an a-tag more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button. 
+**Do not use a button tag to make a link more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button. 
    ```html
        <a href="someurl" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 10px; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 110px;">About me!</a>
    ```
 ```width: 110px``` should change depending on your text.
+
+2. **Accessible forms are not discussed here** because they're a subject by themselves. But Submit (or Search or the main form action) should be a button!
 
 ### 3. Use semantic tags to indicate inner structure. Again it's all about providing information that a sighted user gets at a glance.
 1. **Use tables to present data.**  
