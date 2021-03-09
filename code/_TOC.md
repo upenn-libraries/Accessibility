@@ -8,6 +8,7 @@
 * [Language]({{site.baseurl}}/code/code_examples/language)
 * [Links]({{site.baseurl}}/code/code_examples/links)
 * [Title attribute]({{site.baseurl}}/code/code_examples/titles)
+* [Semantic tags vs CSS]({{site.baseurl}}/code/code_examples/semantic_tags)
 
 #### Forms
 * [Form labels]({{site.baseurl}}/code/code_examples/form_label)
