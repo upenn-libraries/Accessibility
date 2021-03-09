@@ -4,6 +4,8 @@ Semantic tags often come with a default look.
 - If you don't like the default look, use CSS to get rid of it. Don't ditch the tag!
 - If you do want the look but the tag doesn't describe your content, use CSS to duplicate the look. Ditch the tag! 
 
+Note. The code snippets below measure screen content in rems. 1rem = 10px. Using rems benefits people with low eyesight if they magnify screen content.
+
 ### 1. Give screenreaders a quick outline of your page with H-tags
 **H-tags are not a font size**
 - A sighted user understands the  structural hierarchy of a page at a glance. A big title sits at the top, and a hierarchy of subtitles is sprinkled through the content. Tables of contents and side issues are often fenced off in columns and boxes.
@@ -12,7 +14,7 @@ Semantic tags often come with a default look.
    **H2** should be used for boxes or columns (if you have them). If you're using a content management system like LibGuides, these headings are already provided.  
    **H3** will usually be the top tag for your own content structure.  
 
-- If you want your headings to be extra big or colorful, use CSS (note: 1rem = 10px):  
+- If you want your headings to be extra big or colorful, use CSS:  
    ```html
        <h3 style="font-size: 3.5rem; color: red;">My strident header</h3>
    ```
@@ -38,10 +40,10 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
 
    **Do not use a button tag to make a link more strident for your sighted users.** If you want to yell about a link, you can (you probably shouldn't) style your a-tag as a button:
    ```html    
-       <a href="someurl" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 10px; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 110px;">About me!</a>
+       <a href="someurl" style="-webkit-border-radius: .5rem; -moz-border-radius: .5rem; border-radius: .5rem; padding: .5rem 1rem; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 11rem;">About me!</a>
    ``` 
 	 
-   ```width: 110px``` should change depending on your text.
+   ```width: 11rem``` should change depending on your text.
 
 2. **Accessible forms are not discussed here** because they're a subject by themselves. But Submit (or Search or the main form action) should be a button!
 
@@ -85,7 +87,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
    **Do not use blockquotes as a shortcut to indent ordinary text.**
    Here's the CSS for indented text that matches the look of a blockquote:  
    ```html
-       <p style="margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.</p>
+       <p style="margin-left: 4rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.</p>
    ``` 
    
 5. **Use HTML lists for lists.**  
@@ -100,7 +102,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
      ```   
    - List items in this ```<ul>``` tag will not be indented and will have no dots.   
      ```html
-       <ul style="list-style-image: none; list-style-type: none; margin-left: 0; padding-left: 8px;">list items inside</ul>
+       <ul style="list-style-image: none; list-style-type: none; margin-left: 0; padding-left: .8rem;">list items inside</ul>
      ``` 
 
 6. **Use the dl-dt-dd list structure for** 
@@ -111,15 +113,15 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
    You're not stuck with the default look. You can use CSS to display ```<dt>``` and ```<dd>``` on the same line:
       ```html
        <dl>
-         <dt style="float: left; margin-right: 10px;">Subjects:</dt>
+         <dt style="float: left; margin-right: 1rem;">Subjects:</dt>
          <dd>Aristotle</dd>
-         <dt style="float: left; margin-right: 10px;">OCLC:</dt>
+         <dt style="float: left; margin-right: 1rem;">OCLC:</dt>
          <dd>45031325</dd>
        </dl>
      ``` 
    **Don't use dl-dt-dd lists to format hanging indents.** 
    Here's the CSS for that look:
    ```html
-       <p style="text-indent: -40px; margin-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat.</p>
+       <p style="text-indent: -4rem; margin-left: 4rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat.</p>
    ``` 
 
