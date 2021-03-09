@@ -91,7 +91,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
        <p style="margin-left: 4rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra metus et ligula laoreet tincidunt. Suspendisse dignissim erat sed dui varius feugiat. Cras non risus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus porttitor ante in neque eleifend, a venenatis turpis efficitur. Pellentesque sed lacus quis arcu mattis congue. Fusce mattis pharetra sodales.</p>
    ``` 
    
-5. **Use HTML lists for lists.**  
+5. **Use the HTML list tags for lists.**  
    - Screen readers announce the list and tell the user how many items it has.   
    - Screen readers distinguish between ordered (numbered) lists and unordered (dotted) lists and so should we. Use numbers if the order is meaningful.  
      
