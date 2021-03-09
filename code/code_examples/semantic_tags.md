@@ -1,7 +1,7 @@
 ## Do use semantic tags to expose the structure of your document.  
 ## Do not use semantic tags as a shortcut for formatting.
 Semantic tags often come with a default look. 
-- If you don't like the default look, use CSS to get rid of it. Don't ditch or modify the tag!
+- If you don't like the default look, use CSS to get rid of it. Don't ditch the tag!
 - If you do want the look but the tag doesn't describe your content, use CSS to duplicate the look. Ditch the tag! 
 
 ### 1. Give screenreaders a quick outline of your page with H-tags
