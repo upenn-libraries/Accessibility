@@ -65,17 +65,17 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
              <th>top header</th>  
              <th>top header</th>  
              <th>top header</th>  
-	         </tr>  
-	         <tr>  
+           </tr>  
+           <tr>  
              <th>side header</th>  
              <td>data</th>  
              <td>data</th>  
-	         </tr>
+	   </tr>
            <tr>
              <th>side header</th>  
              <td>data</td>  
              <td>data</td>  
-	         </tr>		
+           </tr>		
        </table>
    ``` 
    **Do not use tables for layout.**    
