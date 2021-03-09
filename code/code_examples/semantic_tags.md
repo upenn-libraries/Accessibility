@@ -44,7 +44,7 @@ Users often set screen readers to jump through a list of a-tags on a page. Along
        <a href="some-url" style="-webkit-border-radius: .5rem; -moz-border-radius: .5rem; border-radius: .5rem; padding: .5rem 1rem; border: 1px solid #c00; background: red; color: white; text-decoration: none; text-align: center; font-weight: bold; width: 11rem;">About me!</a>
    ``` 
 	 
-    The snippet below styles an a-tag as a red button with bold white text. Change ```width: 11rem``` to fit your text.
+    The snippet above styles an a-tag as a red button with bold white text. Change ```width: 11rem``` to fit your text.
 
 2. **Accessible forms are not discussed here** because they're a subject by themselves. But Submit (or Search or the main form action) should be a button!
 
