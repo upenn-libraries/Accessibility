@@ -1,1 +1,1 @@
-## Penn Libraries wysiwyg
+## Semantic tags and the Penn Libraries WYSISYG
