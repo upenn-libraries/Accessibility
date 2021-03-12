@@ -32,12 +32,17 @@ Note. The code snippets below measure screen content in rems. 1rem = 10px. Using
 
 ### 2. Provide a quick overview of actions and connections using a-tags, button tags, and form structure.
 1. **Buttons and A-tags**  
-Tim Berners Lee invented HTML to connect documents. Connections are the bones of the World Wide Web.    
-Users often set screen readers to jump through a list of a-tags on a page. Along with the page title, that scan provides a sense of the page's context within the World Wide Web. If your most important a-tag is coded as a button, it will be missing from that overview.  
+Tim Berners Lee invented HTML to connect documents. Connections are the bones of the World Wide Web.  
+
+**Reasons to distinguish buttons and links**
+- Screen readers can jump through a list of a-tags on a page. Along with the page title, that scan provides a sense of the page's context within the World Wide Web. If your most important a-tag is coded as a button, it will be missing from that overview.  
+- In keyboard navigation, buttons and links behave differently.  
+   - A button is activated with the spacebar.   
+   - An a-tag is activated with the enter key.  
 
    **Use a button tag for an action:** “download,” “sign up,” “log out.”
 
-   **Use an a-tag for a link:** Links point to a new page or to a different target on the same page.
+   **Use an a-tag for a link:** Links point to a new page or to a different target on the same page. 
 
    **Do not use a button tag to make a link more strident for your sighted users.**   
    If you want to yell at sighted users, you can (you probably shouldn't) style your a-tag as a button:  
